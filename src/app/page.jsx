@@ -1,12 +1,11 @@
-// import Image from 'next/image';
-
-import Logo from '@/components/Logo';
+import Header from '@/components/Header';
 
 const Home = () => {
   return (
-    <main>
-      <Logo />
-    </main>
+    <>
+      <Header />
+      <main></main>
+    </>
   );
 };
 
