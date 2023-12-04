@@ -16,3 +16,9 @@
 .btnWrapper {
   gap: 12px;
 }
+
+@media (max-width: 767px) {
+  .hideWrapper {
+    display: none;
+  }
+}
