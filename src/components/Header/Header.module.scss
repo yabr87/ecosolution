@@ -3,8 +3,16 @@
   background-color: var(--light-color);
 }
 
-.wrapper {
+.wrapper,
+.btnWrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.wrapper {
+  justify-content: space-between;
+}
+
+.btnWrapper {
+  gap: 12px;
 }
