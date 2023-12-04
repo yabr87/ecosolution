@@ -8,7 +8,8 @@
   transition: background-color var(--timing-function);
 
   @media (hover: hover) and (pointer: fine) {
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: var(--accent-color-light);
     }
   }

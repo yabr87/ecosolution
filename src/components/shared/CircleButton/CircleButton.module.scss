@@ -1,0 +1,43 @@
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--accent-color);
+  padding: 10px 16px;
+  border-radius: 500px;
+  cursor: pointer;
+  transition: all var(--timing-function);
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover,
+    &:focus {
+      background-color: var(--main-color);
+    }
+
+    &:hover .circle,
+    &:focus .circle {
+      background-color: var(--accent-color);
+    }
+
+    &:hover .text,
+    &:focus .text {
+      color: var(--accent-color);
+    }
+  }
+}
+
+.text {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+
+.circle {
+  padding: 2px;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: var(--main-color);
+}

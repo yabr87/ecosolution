@@ -4,7 +4,8 @@
   transition: fill var(--timing-function);
 
   @media (hover: hover) and (pointer: fine) {
-    &:hover {
+    &:hover,
+    &:focus {
       fill: var(--accent-color);
     }
   }
